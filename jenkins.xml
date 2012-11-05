@@ -75,7 +75,8 @@
     <hudson.tasks.Shell>
       <command>
 node_version=v0.8.14
-file_name=node-$node_version-linux-x64
+
+file_name=node-$node_version-linux-x86
 
 if [ ! -e $file_name ]
 then
@@ -85,9 +86,11 @@ fi
 rm -rf target
 mkdir target
 
+node_dir=$PWD/$file_name
+
 cd app
-$PWD/$file_name/bin/npm install
-$PWD/$file_name/bin/npm test
+$node_dir/bin/npm install
+$node_dir/bin/npm test
 
 rm -rf ../target/app.zip
 zip -r ../target/app.zip *
