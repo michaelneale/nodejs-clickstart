@@ -11,7 +11,7 @@
     },
     "build-with-jenkins": {
 	"template": {
-            "type": "https://raw.github.com/michaelneale/nodejs-clickstart/master/config.xml",
+            "type": "https://raw.github.com/michaelneale/nodejs-clickstart/master/jenkins.xml",
             "options": {
             }            
         }
