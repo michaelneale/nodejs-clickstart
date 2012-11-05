@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <project>
   <actions/>
-  <description>Build the compojure war</description>
+  <description>Build and test the node.js app</description>
   <logRotator>
     <daysToKeep>60</daysToKeep>
     <numToKeep>-1</numToKeep>
@@ -85,12 +85,9 @@ fi
 rm -rf target
 mkdir target
 
-export PATH=$PWD/$file_name/bin:$PATH
-
 cd app
-npm install
-npm test
-
+$PWD/$file_name/bin/npm install
+$PWD/$file_name/bin/npm test
 
 rm -rf ../target/app.zip
 zip -r ../target/app.zip *
