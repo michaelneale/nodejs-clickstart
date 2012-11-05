@@ -1,0 +1,19 @@
+{
+    "id": "nodejs-clickstart",
+    "name": "Node.js ClickStart - badass rockstar tech",
+    "source": "github",
+    "description" : "Deploy a node.js application on CloudBees",
+    "runtime": {
+        "type": "nodejs",
+         "app-parameters" : { 
+            "runtime.PLUGIN.SRC.nodejs": "https://s3.amazonaws.com/cloudbees-downloads/clickstack/node-clickstack.zip"
+        }    
+    },
+    "build-with-jenkins": {
+	"template": {
+            "type": "https://raw.github.com/michaelneale/nodejs-clickstart/master/config.xml",
+            "options": {
+            }            
+        }
+    }
+}
