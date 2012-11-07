@@ -1,8 +1,9 @@
 {
     "id": "nodejs-clickstart",
-    "name": "Node.js ClickStart - badass rockstar tech",
+    "name": "Node.js web server",
     "source": "github",
-    "description" : "Deploy a node.js application on CloudBees",
+    "description" : "Deploy a node.js application on CloudBees with continuous deployment (beta)",
+    "icon" : "https://d3ko533tu1ozfq.cloudfront.net/clickstart/nodejs.png",
     "runtime": {
         "type": "nodejs",
          "app-parameters" : { 
