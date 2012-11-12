@@ -4,6 +4,10 @@
     "source": "github",
     "description" : "Deploy a node.js application on CloudBees with continuous deployment (beta)",
     "icon" : "https://d3ko533tu1ozfq.cloudfront.net/clickstart/nodejs_large.png",
+
+    "supported-by" : "community",
+    "order" : 5,
+
     "runtime": {
         "type": "nodejs",
          "app-parameters" : { 
