@@ -76,7 +76,7 @@
       <command>
 node_version=v0.8.14
 
-file_name=node-$node_version-linux-x86
+file_name=node-$node_version-linux-x64
 
 if [ ! -e $file_name ]
 then
