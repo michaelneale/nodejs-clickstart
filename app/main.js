@@ -21,10 +21,10 @@ var server = http.createServer(function (request, response) {
           git commit -m "This is now even better !"<br/>\
           git push origin master\
     </div>\
-    <p>Manage your application components at the following URLs:</p>\
+    <p>That is it ! This will trigger your build/deploy pipline and publish your change</p>\
+    <p>We have set up all the moving parts for you - the management urls can be found on the following urls:</p>\
     <ul>\
-      <li><strong>Core application:</strong> <a href="#CS_appManageUrl">#CS_appManageUrl</a></li>\
-      <li><strong>Database:</strong> <a href="#CS_appManageUrl">#CS_appManageUrl</a></li>\
+      <li><strong>App console:</strong> <a href="#CS_appManageUrl">#CS_appManageUrl</a></li>\
       <li><strong>Jenkins Build System:</strong> <a href="#CS_appManageUrl">#CS_appManageUrl</a></li>\
     </ul>\
   </div>\
