@@ -9,7 +9,7 @@ var server = http.createServer(function (request, response) {
   var popover = '<!-- this is used for first time display of clickstart - a template-->\
     <div id="clickstart_content" style="display:none">\
     <p>\
-      Congratulations, <a href="#CS_appManageUrl"><span>#CS_appName</span></a>, your <a href="#CS_docUrl"><span>#CS_name</span></a> application is now running.<br />\
+      Congratulations, your <a href="#CS_docUrl"><span>#CS_name</span></a> application is now running.<br />\
       To modify it, <a href="https://grandcentral.cloudbees.com/user/ssh_keys">\
       upload your public key (for git) here</a> if you haven\'t already.\
       <br>Then clone your project:\
@@ -18,7 +18,7 @@ var server = http.createServer(function (request, response) {
       git clone #CS_source #CS_appName<br/>\
           cd #CS_appName<br/>\
           ---- do your magic edits ----<br/>\
-          git commit -m "This is now even better !"<br/>\
+          git commit -m "This is now even better"<br/>\
           git push origin master\
     </div>\
     <p>That is it ! This will trigger your build/deploy pipline and publish your change</p>\
@@ -26,6 +26,7 @@ var server = http.createServer(function (request, response) {
     <ul>\
       <li><strong>App console:</strong> <a href="#CS_appManageUrl">#CS_appManageUrl</a></li>\
       <li><strong>Jenkins Build System:</strong> <a href="#CS_appManageUrl">#CS_appManageUrl</a></li>\
+      <li><strong>Source repositories:</strong> <a href="#CS_forgeUrl">#CS_forgeUrl</a></li>\
     </ul>\
   </div>\
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>\
