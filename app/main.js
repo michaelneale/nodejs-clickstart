@@ -10,7 +10,9 @@ var server = http.createServer(function (request, response) {
     <div id="clickstart_content" style="display:none">\
     <p>\
       Congratulations, <a href="#CS_appManageUrl"><span>#CS_appName</span></a>, your <a href="#CS_docUrl"><span>#CS_name</span></a> application is now running.<br />\
-      To modify it, take the following steps to clone the source repository:\
+      To modify it, <a href="https://grandcentral.cloudbees.com/user/ssh_keys">\
+      upload your public key (for git) here</a> if you haven\'t already.\
+      <br>Then clone your project:\
     </p>\
     <div class="CB_codeSample">\
       git clone #CS_source #CS_appName<br/>\
