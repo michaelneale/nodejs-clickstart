@@ -29,4 +29,4 @@ fork that repo, change it, and use it for the -RPLUGIN.SRC.nodejs url above.
 
 Otherwise - fork this ! 
 
-Copyright © 2012 Michael Neale
+
