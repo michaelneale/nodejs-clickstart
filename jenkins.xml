@@ -74,7 +74,7 @@
   <builders>
     <hudson.tasks.Shell>
       <command>
-node_version=v0.8.14
+node_version=v0.8.16
 
 file_name=node-$node_version-linux-x64
 
