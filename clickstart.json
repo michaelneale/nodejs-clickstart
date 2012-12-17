@@ -11,7 +11,7 @@
     "runtime": {
         "type": "nodejs",
          "app-parameters" : { 
-            "runtime.PLUGIN.SRC.nodejs": "https://s3.amazonaws.com/cloudbees-downloads/clickstack/node-clickstack.zip"
+            "runtime.PLUGIN.SRC.nodejs": "https://s3.amazonaws.com/clickstacks/admin/nodejs-plugin-0.8.16.zip"
         }    
     },
     "build-with-jenkins": {
