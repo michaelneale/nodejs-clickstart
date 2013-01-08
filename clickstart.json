@@ -4,6 +4,7 @@
     "source": "github",
     "description" : "Deploy a node.js application on CloudBees with continuous deployment (beta)",
     "icon" : "https://d3ko533tu1ozfq.cloudfront.net/clickstart/nodejs_large.png",
+    "app-package" : "https://s3.amazonaws.com/cloudbees-downloads/clickstart/nodejs_app.zip",
 
     "supported-by" : "community",
     "order" : 2,
