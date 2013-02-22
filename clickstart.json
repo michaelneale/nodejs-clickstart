@@ -17,7 +17,7 @@
     
    "services" : [
      {
-      "name" : "monogohq",
+      "name" : "mongohq",
       "plan" : "base",
       "settings" : {},
          "resources" : [
