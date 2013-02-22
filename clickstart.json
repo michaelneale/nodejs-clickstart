@@ -24,7 +24,7 @@
             {
                 "type" : "mongodb",
                 "alias" : "mictest",
-                "settings" : {}
+                "settings" : { "plan" : "sandbox" }
             }
          ]
      }     
