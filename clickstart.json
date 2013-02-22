@@ -14,9 +14,25 @@
             "runtime.PLUGIN.SRC.nodejs": "https://s3.amazonaws.com/clickstacks/admin/nodejs-plugin-0.8.16.zip"
         }    
     },
+    
+   "services" : [
+     {
+      "name" : "monogohq",
+      "plan" : "base",
+      "settings" : {},
+         "resources" : [
+            {
+                "type" : "mongodb",
+                "alias" : "mictest",
+                "settings" : {}
+            }
+         ]
+     }     
+     ],    
+    
     "build-with-jenkins": {
 	"template": {
-            "type": "https://raw.github.com/CloudBees-community/nodejs-clickstart/master/jenkins.xml",
+            "type": "https://raw.github.com/michaelneale/nodejs-clickstart/master/jenkins.xml",
             "options": {
             }            
         }
