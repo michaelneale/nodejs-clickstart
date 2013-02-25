@@ -14,7 +14,8 @@
             "runtime.PLUGIN.SRC.nodejs": "https://s3.amazonaws.com/clickstacks/admin/nodejs-plugin-0.8.16.zip"
         },
         "app-variables" : {
-            "MONGO_URL" : "$MONGOHQ_URL_MICTEST"	
+            "MONGO_URL" : "$MONGOHQ_URL_METEOR",
+            "MORE" : "sample"
         }
     },
         
@@ -27,7 +28,7 @@
          "resources" : [
             {
                 "type" : "mongodb",
-                "alias" : "mictest",
+                "alias" : "METEOR",
                 "settings" : { "plan" : "sandbox" }
             }
          ]
